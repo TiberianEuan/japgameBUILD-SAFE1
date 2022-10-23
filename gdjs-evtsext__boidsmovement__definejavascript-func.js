@@ -12,7 +12,7 @@ gdjs.evtsExt__BoidsMovement__DefineJavaScript.condition0IsTrue_0 = {val:false};
 gdjs.evtsExt__BoidsMovement__DefineJavaScript.condition1IsTrue_0 = {val:false};
 
 
-gdjs.evtsExt__BoidsMovement__DefineJavaScript.userFunc0x8f8890 = function(runtimeScene, eventsFunctionContext) {
+gdjs.evtsExt__BoidsMovement__DefineJavaScript.userFunc0xe37fb8 = function(runtimeScene, eventsFunctionContext) {
 "use strict";
 
 gdjs.__boidsExtension = gdjs.__boidsExtension || {};
@@ -479,7 +479,7 @@ gdjs.evtsExt__BoidsMovement__DefineJavaScript.eventsList0 = function(runtimeScen
 {
 
 
-gdjs.evtsExt__BoidsMovement__DefineJavaScript.userFunc0x8f8890(runtimeScene, typeof eventsFunctionContext !== 'undefined' ? eventsFunctionContext : undefined);
+gdjs.evtsExt__BoidsMovement__DefineJavaScript.userFunc0xe37fb8(runtimeScene, typeof eventsFunctionContext !== 'undefined' ? eventsFunctionContext : undefined);
 
 }
 

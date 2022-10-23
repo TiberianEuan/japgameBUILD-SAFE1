@@ -68,7 +68,7 @@ gdjs.raceCode.condition2IsTrue_1 = {val:false};
 gdjs.raceCode.condition3IsTrue_1 = {val:false};
 
 
-gdjs.raceCode.asyncCallback9203044 = function (runtimeScene, asyncObjectsList) {
+gdjs.raceCode.asyncCallback14133324 = function (runtimeScene, asyncObjectsList) {
 {gdjs.evtTools.runtimeScene.replaceScene(runtimeScene, "connection", true);
 }}
 gdjs.raceCode.eventsList0 = function(runtimeScene) {
@@ -79,7 +79,7 @@ gdjs.raceCode.eventsList0 = function(runtimeScene) {
 {
 {
 const asyncObjectsList = new gdjs.LongLivedObjectsList();
-runtimeScene.getAsyncTasksManager().addTask(gdjs.evtTools.runtimeScene.wait(5), (runtimeScene) => (gdjs.raceCode.asyncCallback9203044(runtimeScene, asyncObjectsList)));
+runtimeScene.getAsyncTasksManager().addTask(gdjs.evtTools.runtimeScene.wait(5), (runtimeScene) => (gdjs.raceCode.asyncCallback14133324(runtimeScene, asyncObjectsList)));
 }
 }
 
@@ -173,7 +173,7 @@ gdjs.raceCode.condition0IsTrue_0.val = gdjs.evtTools.object.hitBoxesCollisionTes
 }if ( gdjs.raceCode.condition0IsTrue_0.val ) {
 {
 {gdjs.raceCode.conditionTrue_1 = gdjs.raceCode.condition1IsTrue_0;
-gdjs.raceCode.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(9203748);
+gdjs.raceCode.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(14132452);
 }
 }}
 if (gdjs.raceCode.condition1IsTrue_0.val) {
@@ -202,7 +202,7 @@ gdjs.raceCode.condition0IsTrue_0.val = gdjs.evtTools.object.hitBoxesCollisionTes
 }if ( gdjs.raceCode.condition0IsTrue_0.val ) {
 {
 {gdjs.raceCode.conditionTrue_1 = gdjs.raceCode.condition1IsTrue_0;
-gdjs.raceCode.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(9204588);
+gdjs.raceCode.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(15652428);
 }
 }}
 if (gdjs.raceCode.condition1IsTrue_0.val) {
